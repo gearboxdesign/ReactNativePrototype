@@ -1,0 +1,34 @@
+{
+  "name": "ReactNativePrototype",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "inspect": "node_modules/.bin/react-devtools",
+    "flow": "node_modules/.bin/flow",
+    "flow-watch": "node_modules/.bin/flow status",
+    "flow-unwatch": "node_modules/.bin/flow stop",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-devtools": "3.0.0",
+    "react-native": "0.52.0",
+    "react-navigation": "1.0.0-beta.27",
+    "react-redux": "5.0.6",
+    "recompose": "0.26.0",
+    "redux": "3.7.2",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "flow-bin": "0.61.0",
+    "jest": "22.1.1",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
